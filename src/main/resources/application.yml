@@ -1,9 +1,9 @@
 spring:  
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.100.91:3307/example?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://<your ip>:3307/example?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: user
-    password: "!r0gXz#vcB@j#O"
+    password: "password"
   jpa:
     show-sql: false
     database: mysql
